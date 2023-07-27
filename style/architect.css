@@ -85,4 +85,32 @@ nav li a{
     }
     
 }
-    
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* team sec */
+    .team-sec{
+        display: flex;
+        align-items: center;
+    }
+    .team-img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1.5rem;
+    }
+    .team-content{
+        padding-left:70px;
+        padding-right:70px ;
+    }
+    .team-title{
+        font-size: 1.8rem;
+    }
+    .title1{
+        color: gray;
+        font-weight:500px;
+    }
+    .title3{
+        color: #ff900e;
+        font-weight: 700px;
+    }
