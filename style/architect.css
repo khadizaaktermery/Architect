@@ -112,14 +112,28 @@ main{
    .text-light-gray{
     color:#727272;
    }
+   /* sponsors sec */
+   .sponsor{
+    text-align: center;
+   }
+   .sponsor-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-to:50px ;
+    gap: 20px;
+   }
+   .sponsor-img-container,img{
+    width: 165px;
+    height: 50px;
+   }
 
 /* media queries */
 @media screen and (max-width:576px) {
     header{
         padding: 20px;
     }
-    nav, .team-sec{
-        display: flex;
+    nav, .team-sec, .fact-card-container{
         flex-direction: column;
     }
     .banner img{
@@ -128,10 +142,13 @@ main{
     .team-img{
         grid-template-columns: 1fr;
     }
-    .team-content{
+    .team-content, .fact-card-container{
         padding-left:20px;
 
         padding-right:20px ;
+    }
+    .fact-card-container{
+        gap: 20px;
     }
     
 } 
